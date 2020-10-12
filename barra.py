@@ -1,4 +1,5 @@
 import numpy as np
+from math import ceil
 
 g = 9.81 #kg*m/s^2
 
@@ -108,6 +109,36 @@ class Barra(object):
 		se cumplan las disposiciones de diseño lo más cerca posible
 		a FU = 1.0.
 		"""
-		self.R = 0.6*self.R   #cambiar y poner logica de diseño
-		self.t = 0.6*self.t   #cambiar y poner logica de diseño
-		return None
+		f = 1.
+		p = 1e-4
+
+		while f > 0:
+			
+			self.R = self.R * f
+			self.t = self.t * f	
+			
+			if self.obtener_factor_utilizacion(Fu, ϕ=0.9) < 0.99:
+				self.R = self.R / f
+				self.t = self.t / f	
+				f = f - p
+			
+			elif self.obtener_factor_utilizacion(Fu, ϕ=0.9) > 1.:
+				self.R = self.R / f
+				self.t = self.t / f	
+				
+				f = f + p
+				
+				self.R = self.R * f
+				self.t = self.t * f
+				break
+			
+			else:
+				break
+
+		R = ceil(self.R * 100)
+		t = ceil(self.t * 1000)
+		
+		self.R = R/100
+		self.t = t/1000
+		
+		return ret, self.R, self.t

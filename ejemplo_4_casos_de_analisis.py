@@ -124,6 +124,12 @@ plt.title("FU caso 2: 1.2 D + 1.6 L")
 plt.show()
 
 
-Fu = #definir
+#Lista de Fu por barra
+Pu = []
+for i in range(len(f_1)):
+    if abs(f_1[i]) > abs(f_2[i]):
+        Pu.append(f_1[i])
+    else:
+        Pu.append(f_2[i])
 
-ret_D.rediseñar(Fu)
+ret_D.rediseñar(Pu)
