@@ -33,10 +33,10 @@ f_L = ret_L.recuperar_fuerzas()
 f_1 = 1.4*f_D           #Combinacion 1
 f_2 = 1.2*f_D + 1.6*f_L #Combinacion 2
 
-# Calcular factores 
+
+#Calcular factores 
 FU_caso1 = ret_D.recuperar_factores_de_utilizacion(f_1)
 FU_caso2 = ret_D.recuperar_factores_de_utilizacion(f_2)
-
 
 import matplotlib.pyplot as plt
 
@@ -81,8 +81,6 @@ plt.title("Tensiones en caso 1: 1.2 D + 1.6 L")
 plt.show()
 
 
-
-
 ver_reticulado_3d(ret_D, 
     opciones_nodos = {
         "usar_posicion_deformada": True,
@@ -123,7 +121,12 @@ ver_reticulado_3d(ret_D,
 plt.title("FU caso 2: 1.2 D + 1.6 L")
 plt.show()
 
+#Lista de Fu por barra
+Pu = []
+for i in range(len(f_1)):
+    if abs(f_1[i]) > abs(f_2[i]):
+        Pu.append(f_1[i])
+    else:
+        Pu.append(f_2[i])
 
-Fu = #definir
-
-ret_D.rediseñar(Fu)
+ret_D.rediseñar(Pu, ϕ=0.9)
