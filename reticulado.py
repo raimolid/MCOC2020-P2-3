@@ -84,18 +84,14 @@ class Reticulado(object):
 			fe = b.obtener_vector_de_cargas(self) 
 
 			ni, nj = b.obtener_conectividad()
-            
-            #MDR
-			if self.Ndimensiones == 2:
-				d = [2*ni, 2*ni+1, 2*nj, 2*nj+1]
-            
-			else:
-				d = [3*ni, 3*ni+1, 3*ni+2 , 3*nj, 3*nj+1, 3*nj+2]
 
-			print(f"i : ke = {ke} \n d = {d} \n fe = {fe}")
-			for i in range(self.Ndimensiones*2):
+
+			#MDR
+			d = [2*ni, 2*ni+1 , 2*nj, 2*nj+1]
+
+			for i in range(4):
 				p = d[i]
-				for j in range(self.Ndimensiones*2):
+				for j in range(4):
 					q = d[j]
 					self.K[p,q] += ke[i,j]
 				self.f[p] = fe[i]
@@ -118,7 +114,7 @@ class Reticulado(object):
 				gdl = restriccion[0]
 				valor = restriccion[1]
 
-				gdl_global = self.Ndimensiones*nodo + gdl
+				gdl_global = 2*nodo + gdl
 				self.u[gdl_global] = valor
 
 				gdl_restringidos.append(gdl_global)
@@ -133,7 +129,7 @@ class Reticulado(object):
 				gdl = carga[0]
 				valor = carga[1]
 
-				gdl_global = self.Ndimensiones*nodo + gdl
+				gdl_global = 2*nodo + gdl
 				self.f[gdl_global] = valor
 
 
@@ -159,13 +155,7 @@ class Reticulado(object):
 		self.has_solution = True
 
 	def obtener_desplazamiento_nodal(self, n):
-		if self.Ndimensiones ==2:
-			dofs = [2*n, 2*n+1]
-		elif self.Ndimensiones == 3:
-			dofs = [3*n, 3*n+1, 3*n+2]
-		else:
-			print(f"Error en numero de dimensiones")
-            
+		dofs = [2*n, 2*n+1]
 		return self.u[dofs]
 
 
@@ -189,6 +179,22 @@ class Reticulado(object):
 	def rediseñar(self, Fu, ϕ=0.9):
 		for i,b in enumerate(self.barras):
 			b.rediseñar(Fu[i], self, ϕ)
+
+
+	def chequear_diseño(self, Fu, ϕ=0.9):
+		for i,b in enumerate(self.barras):
+			if not b.chequear_diseño(Fu[i], self, ϕ):
+				return False
+		return True
+
+
+
+
+
+
+
+
+
 
 
 
