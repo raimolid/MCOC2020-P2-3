@@ -13,7 +13,7 @@ def caso_L():
 	cm = 0.01*m
 	mm = 0.001*m
 	KN = 1000*N
-	kgf = 9.80665*N
+	kgf = 9.81*N
 	
 	Pa = N / m**2
 	KPa = 1000*Pa
@@ -21,14 +21,15 @@ def caso_L():
 	GPa = 1000*MPa
 	
 	#Parametros
-	L = 15.0  *m
+	L = 5.0 *m
 	B = 2.0 *m
 	H = 3.5 *m
 	
 	q  = 400*kgf/m**2
-	F = q*L*B
-	F  = F/4
-	#Inicializar modelo
+	F1 = q*L*B/4 # 1/4 de la carga
+	F2 = q*L*B/2 # 1/2 de la carga
+    
+    #Inicializar modelo
 	ret = Reticulado()
 	
 	#Nodos
@@ -101,14 +102,15 @@ def caso_L():
 	ret.agregar_restriccion(10, 1, 0)
 	ret.agregar_restriccion(10, 2, 0)
 	
+	#Fuerzas en nodos
+	ret.agregar_fuerza(0 , 2, -F1) #listo
+	ret.agregar_fuerza(1 , 2, -F2) #listo
+	ret.agregar_fuerza(2 , 2, -F2) #listo
+	ret.agregar_fuerza(3 , 2, -F1) #listo
+	ret.agregar_fuerza(7 , 2, -F1) #listo
+	ret.agregar_fuerza(8 , 2, -F2) #listo
+	ret.agregar_fuerza(9 , 2, -F2) #listo
+	ret.agregar_fuerza(10, 2, -F1) #listo
 	
-	ret.agregar_fuerza(0, 2, -F)
-	ret.agregar_fuerza(1, 2, -F)
-	ret.agregar_fuerza(2, 2, -F)
-	ret.agregar_fuerza(3, 2, -F)
-	ret.agregar_fuerza(7, 2, -F)
-	ret.agregar_fuerza(8, 2, -F)
-	ret.agregar_fuerza(9, 2, -F)
-	ret.agregar_fuerza(10, 2, -F)
 	
 	return ret
