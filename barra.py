@@ -103,7 +103,7 @@ class Barra(object):
 
 		return abs(Fu) / (ϕ*Fn)
 
-	def rediseñar(self, Fu, ret, ϕ=0.9):
+	def rediseñar(self, Fu, ϕ=0.9):
 		"""Para la fuerza Fu (proveniente de una combinacion de cargas)
 		re-calcular el radio y el espesor de la barra de modo que
 		se cumplan las disposiciones de diseño lo más cerca posible
@@ -135,10 +135,12 @@ class Barra(object):
 			else:
 				break
 
+		"""Aqui se cambia R y t para que tengan un valor entero"""
+		
 		R = ceil(self.R * 100)
 		t = ceil(self.t * 1000)
 		
 		self.R = R/100
 		self.t = t/1000
 		
-		return ret, self.R, self.t
+		return self.R, self.t

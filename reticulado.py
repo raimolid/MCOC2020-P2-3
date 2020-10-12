@@ -87,7 +87,7 @@ class Reticulado(object):
 			else:
 				d = [3*ni, 3*ni+1, 3*ni+2 , 3*nj, 3*nj+1, 3*nj+2]
 
-			print(f"i : ke = {ke} \n d = {d} \n fe = {fe}")
+#			print(f"i : ke = {ke} \n d = {d} \n fe = {fe}")
 			for i in range(self.Ndimensiones*2):
 				p = d[i]
 				for j in range(self.Ndimensiones*2):
@@ -180,7 +180,7 @@ class Reticulado(object):
 
 	def rediseñar(self, Fu, ϕ=0.9):
 		for i,b in enumerate(self.barras):
-			b.rediseñar(Fu[i], self, ϕ)
+			b.rediseñar(Fu[i], ϕ)
 
 	def chequear_diseño(self, Fu, ϕ=0.9):
 		for i,b in enumerate(self.barras):
