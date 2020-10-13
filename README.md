@@ -25,10 +25,20 @@
 
 * Inicialmente se tiene un peso del reticulado de 24197 kg
 
+## Rediseño total del reticulado
 
 
 
-## Rediseño de barras
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1_redisenototal.jpg)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2_redisenototal.jpg)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1_redisenototal.jpg)
+
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso2_redisenototal.jpg)
+
+
+## Rediseño de 5 barras
 
 
 
