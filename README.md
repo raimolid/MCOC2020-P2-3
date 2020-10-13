@@ -95,9 +95,9 @@ def rediseñar(self, Fu, ϕ=0.9):
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseno.jpeg)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jepg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpeg)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jepg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpeg)
 
 
   
