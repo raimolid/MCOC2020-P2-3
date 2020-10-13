@@ -129,7 +129,7 @@ def rediseñar(self, Fu, ϕ=0.9):
 
 
 
-### Desplazamientos verticales
+## Desplazamientos verticales
 
 * Se obtuvieron los siguientes desplazamientos para los nodos del tablero:
 
@@ -168,7 +168,14 @@ Desplazamiento nodal nodo 9: [ 1.44652111e-05 -2.43204931e-05 -2.82807775e-04]
 
 Desplazamiento nodal nodo 10: [1.64690789e-05 0.00000000e+00 0.00000000e+00]
 
-### Comentarios
+
+* Por las condiciones de los apoyos del tablero, los nodos 0 y 7 se mantienen fijos  por lo que sus desplazamientos verticicales, como también en otras direcciones son 0
+  siempre. En cuanto a los otros nodos, se puede observar que los nodos 1 y 2 presentan desplazamientos verticales similares de 0,10 mm con el reticulado sin rediseñar. Luego
+  del rediseño estos desplazamientos aumentan a 0,28 mm. Debido a la simetría, cosa similar ocurre en los nodos 8 y 9 donde previo al rediseño se tienen 0,10 mm y después se 
+  tienen 0,28 mm de desplazamiento vertical. En los nodos 3 y 10 no se presentan desplazamientos verticales en los 2 reticulados.
+
+
+## Comentarios
 
 * La nueva distribución del FU del reticulado muestra que aumento al doble el factor de utilización en el caso 2 debido a que el peso del reticulado disminuye de 24197 kg a
   20021 kg.
