@@ -140,6 +140,24 @@ Desplazamiento nodal nodo 9: [ 1.79948890e-05 -1.50681106e-06 -1.02143151e-04]
 Desplazamiento nodal nodo 10: [2.43012995e-05 0.00000000e+00 0.00000000e+00]
 
 
+* Luego del rediseño se obtuvieron los siguientes desplazamientos:
+
+Desplazamiento nodal nodo 0: [0. 0. 0.]
+
+Desplazamiento nodal nodo 1: [-1.16154987e-06 -1.26739481e-05 -2.81815982e-04]
+
+Desplazamiento nodal nodo 2: [ 1.88956319e-05 -2.09908203e-05 -2.82807775e-04]
+
+Desplazamiento nodal nodo 3: [3.18798593e-05 0.00000000e+00 0.00000000e+00]
+
+Desplazamiento nodal nodo 7: [0. 0. 0.]
+
+Desplazamiento nodal nodo 8: [ 8.39924747e-06 -1.55197345e-05 -2.81815982e-04]
+
+Desplazamiento nodal nodo 9: [ 1.44652111e-05 -2.43204931e-05 -2.82807775e-04]
+
+Desplazamiento nodal nodo 10: [1.64690789e-05 0.00000000e+00 0.00000000e+00]
+
 ### Comentarios
 
 * La nueva distribución del FU del reticulado muestra que aumento al doble el factor de utilización en el caso 2 debido a que el peso del reticulado disminuye de 24197 kg a
