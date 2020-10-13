@@ -108,3 +108,11 @@ def rediseñar(self, Fu, ϕ=0.9):
 * En el caso 1 ni la  tensión  ni el factor de utilización  cambiara, debido a que no hay carga viva que afecte en la combinación de carga por lo que solo se considerara la
   carga muerta.
 
+
+### Comentarios
+
+* La nueva distribución del FU del reticulado muestra que aumento al doble el factor de utilización en el caso 2 debido a que el peso del reticulado disminuye de 24197 kg a
+  20021 kg.
+* Algunos cambios globales que se pueden hacer para mejorar aun mas el peso del reticulado es el de acercarse aun mas a un factor de utilización igual a 1, de esta manera el
+  peso disminuiría en cada barra haciendo el reticulado mas económico. Para esto se pueden cambiar la altura de los nodos y de esta manera cortar las barras.
+
