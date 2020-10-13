@@ -118,7 +118,23 @@ def rediseñar(self, Fu, ϕ=0.9):
 
 ### Desplazamientos verticales
 
+* Se obtuvieron los siguientes desplazamientos para los nodos del tablero:
 
+Desplazamiento nodal nodo 0: [0. 0. 0.]
+
+Desplazamiento nodal nodo 1: [ 6.30641050e-06  1.50681106e-06 -1.02143151e-04]
+
+Desplazamiento nodal nodo 2: [ 1.79948890e-05  1.50681106e-06 -1.02143151e-04]
+
+Desplazamiento nodal nodo 3: [2.43012995e-05 0.00000000e+00 0.00000000e+00]
+
+Desplazamiento nodal nodo 7: [0. 0. 0.]
+
+Desplazamiento nodal nodo 8: [ 6.30641050e-06 -1.50681106e-06 -1.02143151e-04]
+
+Desplazamiento nodal nodo 9: [ 1.79948890e-05 -1.50681106e-06 -1.02143151e-04]
+
+Desplazamiento nodal nodo 10: [2.43012995e-05 0.00000000e+00 0.00000000e+00]
 
 
 ### Comentarios
