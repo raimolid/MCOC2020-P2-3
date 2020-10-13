@@ -11,6 +11,7 @@
 * Con esto se analizan las tensiones producidas en 2 casos:
 
 
+
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1.png)
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2.png)
@@ -18,6 +19,8 @@
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1.png)
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso2.png)
+
+
 
 
 * Inicialmente se tiene un peso del reticulado de 24197 kg
