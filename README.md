@@ -86,7 +86,7 @@ def rediseñar(self, Fu, ϕ=0.9):
 ### Nuevos factores de utilización, fuerzas en las barras y deformada para cada combinación de carga
 
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseno.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/ret_caso1rediseno.png)
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseno.png)
 
