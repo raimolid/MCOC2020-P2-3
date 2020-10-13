@@ -86,13 +86,13 @@ def rediseñar(self, Fu, ϕ=0.9):
 ### Nuevos factores de utilización, fuerzas en las barras y deformada para cada combinación de carga
 
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseño.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseno.png)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseño.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseno.png)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseño.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.png)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseño.png)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.png)
 
 * Los criterios de rediseño que se tomaron en cuenta fueron que cuando el factor de utilización era menor a 1 entonces “f” comenzaba a disminuir lo cual hace que aumente el FU
   hasta llegar lo mas cercano a un FU = 1. 
