@@ -95,13 +95,13 @@ def rediseñar(self, Fu, ϕ=0.9):
   Luego cuando FU se acerca a 1 se va ajustando el valor de R y t en la barra, este a su vez se va considerando como el valor entero del radio y grosor que se calcula.
 
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseno.jpeg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseno.jpg)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseno.jpeg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseno.jpg)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpeg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpg)
 
-![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpeg)
+![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseno.jpg)
 
 
   
