@@ -118,7 +118,7 @@ def rediseñar(self, Fu, ϕ=0.9):
 
 
   
-* De esta manera el peso del reticulado disminuyo de 24197 kg a 20021 kg lo que afecta en la tensión del caso 2: 1.2 D + 1.6 L en donde se puede apreciar un cambio en las
+* De esta manera el peso del reticulado disminuyo de 24197 kg a 19901 kg lo que afecta en la tensión del caso 2: 1.2 D + 1.6 L en donde se puede apreciar un cambio en las
   tensiones de las barras 0, 1, 2, 28 y 29 en casi el doble de la original. A su vez los factores de utilización en el caso 2 de las barras a estudiar aumentan de sobremanera y   en el caso de las barras 28 y 29 ubicandose en torno a 1
 * En el caso 1 también varias las tensiones, si bien, no varían tanto como en el caso 2, pareciera que se distribuyen de otra forma las tensiones, las barras a compresión
   disminuyen sus tensiones, y otras a tracción aumentan.
@@ -174,8 +174,8 @@ Desplazamiento nodal nodo 10: [1.64690789e-05 0.00000000e+00 0.00000000e+00]
 
 ## Comentarios
 
-* La nueva distribución del FU del reticulado muestra que aumento al doble el factor de utilización en el caso 2 debido a que el peso del reticulado disminuye de 24197 kg a
-  20021 kg.
+* La nueva distribución del FU del reticulado muestra una aproximación mas cercana a 1 en el caso 2 debido a que el peso del reticulado disminuye de 24197 kg a
+   19901 kg.
 * Algunos cambios globales que se pueden hacer para mejorar aun mas el peso del reticulado es el de acercarse aun mas a un factor de utilización igual a 1, de esta manera el
   peso disminuiría en cada barra haciendo el reticulado mas económico. Para esto se pueden cambiar la altura de los nodos y de esta manera cortar las barras.
 
