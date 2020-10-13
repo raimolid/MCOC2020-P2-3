@@ -119,12 +119,9 @@ def rediseñar(self, Fu, ϕ=0.9):
 
   
 * De esta manera el peso del reticulado disminuyo de 24197 kg a 20021 kg lo que afecta en la tensión del caso 2: 1.2 D + 1.6 L en donde se puede apreciar un cambio en las
-  tensiones de las barras 0, 1, 2, 28 y 29 en casi el doble de la original. A su vez los factores de utilización en el caso 2 de las barras a estudiar aumentan en el doble de lo
-  que se veían originalmente.
-  
-* En el caso 1 ni la  tensión  ni el factor de utilización  cambiara, debido a que no hay carga viva que afecte en la combinación de carga por lo que solo se considerara la
-  carga muerta.
-
+  tensiones de las barras 0, 1, 2, 28 y 29 en casi el doble de la original. A su vez los factores de utilización en el caso 2 de las barras a estudiar aumentan de sobremanera y   en el caso de las barras 28 y 29 ubicandose en torno a 1
+* En el caso 1 también varias las tensiones, si bien, no varían tanto como en el caso 2, pareciera que se distribuyen de otra forma las tensiones, las barras a compresión
+  disminuyen sus tensiones, y otras a tracción aumentan.
 
 
 
