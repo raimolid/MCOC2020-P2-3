@@ -87,8 +87,11 @@ def rediseñar(self, Fu, ϕ=0.9):
 
 
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso1rediseño.png)
+
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/ret_caso2rediseño.png)
+
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseño.png)
+
 ![Alt Text](https://github.com/raimolid/MCOC2020-P2-3/blob/main/FU_caso1rediseño.png)
 
 * Los criterios de rediseño que se tomaron en cuenta fueron que cuando el factor de utilización era menor a 1 entonces “f” comenzaba a disminuir lo cual hace que aumente el FU
