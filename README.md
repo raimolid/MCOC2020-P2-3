@@ -83,7 +83,11 @@ def rediseñar(self, Fu, ϕ=0.9):
   ajusta el valor de "R" y "t" de la barra, de modo que sean valores enteros, por ejemplo 2.3 cm = 3.0 cm.
   
   
+  
+  
 ### Nuevos factores de utilización, fuerzas en las barras y deformada para cada combinación de carga
+
+
 
 
 * Los criterios de rediseño que se tomaron en cuenta fueron que cuando el factor de utilización era menor a 1 entonces “f” comenzaba a disminuir lo cual hace que aumente el FU
@@ -107,6 +111,14 @@ def rediseñar(self, Fu, ϕ=0.9):
   
 * En el caso 1 ni la  tensión  ni el factor de utilización  cambiara, debido a que no hay carga viva que afecte en la combinación de carga por lo que solo se considerara la
   carga muerta.
+
+
+
+
+
+### Desplazamientos verticales
+
+
 
 
 ### Comentarios
